@@ -20,11 +20,13 @@ jobs:
     - name: Make gradlew executable
       run: chmod +x gradlew
 
+    # تم التعديل هنا: استخدام assembleDebug لإنشاء ملفات الـ APK
     - name: Build with Gradle
-      run: ./gradlew build
+      run: ./gradlew assembleDebug
 
     - name: Upload APK
       uses: actions/upload-artifact@v4
       with:
         name: my-app-apk
+        # سيصبح هذا المسار متاحاً الآن بعد عملية الـ assembleDebug
         path: app/build/outputs/apk/debug/*.apk

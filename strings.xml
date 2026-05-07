@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">سمارت كربلاء</string>
+    <string name="app_name_en">Smart Karbala</string>
+
+    <!-- Login -->
+    <string name="login_title">مرحباً بك</string>
+    <string name="login_subtitle">بوابة المواطن الذكي</string>
+    <string name="login_nfc_title">تسجيل الدخول بالهوية الوطنية</string>
+    <string name="login_nfc_instruction">ضع بطاقة هويتك الوطنية\nعلى ظهر الهاتف</string>
+    <string name="login_nfc_scanning">جاري قراءة البطاقة…</string>
+    <string name="login_nfc_success">تم التعرف على هويتك ✓</string>
+    <string name="login_nfc_error">تعذّر قراءة البطاقة، حاول مرة أخرى</string>
+    <string name="login_nfc_not_supported">جهازك لا يدعم NFC</string>
+    <string name="login_enable_nfc">تفعيل NFC</string>
+    <string name="login_biometric">الدخول ببصمة الإصبع</string>
+    <string name="login_pin">الدخول برمز PIN</string>
+    <string name="login_register">تسجيل حساب جديد</string>
+    <string name="btn_continue">متابعة</string>
+    <string name="btn_cancel">إلغاء</string>
+
+    <!-- Home -->
+    <string name="home_greeting_morning">صباح الخير</string>
+    <string name="home_greeting_afternoon">مساء الخير</string>
+    <string name="home_greeting_evening">مساء النور</string>
+    <string name="home_weather_loading">جاري تحميل الطقس…</string>
+    <string name="home_quick_actions">الخدمات السريعة</string>
+    <string name="home_news">أخبار كربلاء</string>
+
+    <!-- Map -->
+    <string name="map_title">خريطة كربلاء</string>
+    <string name="map_search_hint">ابحث عن مطعم، فندق، مسجد…</string>
+    <string name="map_filter_all">الكل</string>
+    <string name="map_filter_restaurants">مطاعم</string>
+    <string name="map_filter_hotels">فنادق</string>
+    <string name="map_filter_mosques">مساجد</string>
+    <string name="map_filter_hospitals">مستشفيات</string>
+    <string name="map_filter_tourism">سياحة</string>
+    <string name="map_loading">جاري تحميل الخريطة…</string>
+    <string name="map_offline_notice">وضع عدم الاتصال — الخريطة المحفوظة</string>
+
+    <!-- Wallet -->
+    <string name="wallet_title">المحفظة الرقمية</string>
+    <string name="wallet_add_card">إضافة بطاقة</string>
+    <string name="wallet_add_card_nfc">امسح بطاقتك بـ NFC</string>
+    <string name="wallet_scan_card">وضع البطاقة على الهاتف…</string>
+    <string name="wallet_card_added">تمت إضافة البطاقة ✓</string>
+    <string name="wallet_pay_nfc">الدفع بـ NFC</string>
+    <string name="wallet_balance">الرصيد</string>
+    <string name="wallet_no_cards">لا توجد بطاقات مضافة</string>
+    <string name="wallet_card_visa">فيزا</string>
+    <string name="wallet_card_mastercard">ماستركارد</string>
+
+    <!-- Complaint -->
+    <string name="complaint_title">تقديم شكوى</string>
+    <string name="complaint_road">حفرة في الطريق</string>
+    <string name="complaint_traffic">مشكلة مرورية</string>
+    <string name="complaint_lighting">إنارة معطلة</string>
+    <string name="complaint_sewage">مجاري</string>
+    <string name="complaint_other">أخرى</string>
+    <string name="complaint_description">وصف المشكلة</string>
+    <string name="complaint_location">الموقع</string>
+    <string name="complaint_photo">إضافة صورة</string>
+    <string name="complaint_submit">إرسال الشكوى</string>
+    <string name="complaint_success">تم إرسال شكواك بنجاح ✓</string>
+    <string name="complaint_number">رقم الشكوى</string>
+    <string name="complaint_history">شكاواي السابقة</string>
+
+    <!-- Settings -->
+    <string name="settings_title">الإعدادات</string>
+    <string name="settings_appearance">المظهر</string>
+    <string name="settings_dark_mode">الوضع الداكن</string>
+    <string name="settings_language">اللغة</string>
+    <string name="settings_notifications">الإشعارات</string>
+    <string name="settings_privacy">الخصوصية والأمان</string>
+    <string name="settings_about">حول التطبيق</string>
+    <string name="settings_version">الإصدار 1.0.0</string>
+    <string name="settings_logout">تسجيل الخروج</string>
+
+    <!-- Weather -->
+    <string name="weather_feels_like">الإحساس</string>
+    <string name="weather_humidity">الرطوبة</string>
+    <string name="weather_wind">الرياح</string>
+    <string name="weather_uv_index">مؤشر UV</string>
+    <string name="weather_karbala">كربلاء المقدسة</string>
+
+    <!-- General -->
+    <string name="loading">جاري التحميل…</string>
+    <string name="retry">إعادة المحاولة</string>
+    <string name="no_internet">لا يوجد اتصال بالإنترنت</string>
+    <string name="error_generic">حدث خطأ، يرجى المحاولة مرة أخرى</string>
+    <string name="ok">موافق</string>
+    <string name="yes">نعم</string>
+    <string name="no">لا</string>
+    <string name="save">حفظ</string>
+    <string name="delete">حذف</string>
+    <string name="search">بحث</string>
+    <string name="back">رجوع</string>
+    <string name="close">إغلاق</string>
+    <string name="share">مشاركة</string>
+    <string name="rating">التقييم</string>
+    <string name="review_count">%d تقييم</string>
+    <string name="km_away">%.1f كم</string>
+    <string name="open_now">مفتوح الآن</string>
+    <string name="closed">مغلق</string>
+</resources>
